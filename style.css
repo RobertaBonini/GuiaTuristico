@@ -1,5 +1,6 @@
 body{
     background-color: rgb(143, 8, 8);
+    font-family: "Alice", serif;
 }
 
 #geral {
@@ -10,9 +11,34 @@ body{
 }
 
 h3 {
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 5%;
     color: rgb(143, 8, 8) ;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    color: rgb(53, 10, 1);
+}
+main{
+    margin: 8%;
+}
+
+ul{
+    font-family: "Oswald", sans-serif ;
+    font-weight: 200;
+}
+
+footer{
+    color:  rgba(64, 29, 5, 0.747) ;
+    text-align: center;
+    margin:2% auto 5% auto;
+    font-size: 90%;
+}
+
+#feito{
+    padding-bottom: 5%;
 }
 
 #princ{
@@ -22,7 +48,6 @@ h3 {
 
 img {
     width: 80%;
-    /* padding: ; */
     margin: 0% 10%;
     border-radius: 50px;
 }
@@ -34,6 +59,7 @@ figcaption {
 
 a{
     color:  rgba(64, 29, 5, 0.368) ;
+    text-decoration: none;
 }
 
 #icon {
@@ -47,7 +73,6 @@ table {
     margin: 2%;
 }
 table td{
-    /* border: solid; */
     width:  15%;
 }
 
@@ -55,3 +80,26 @@ table td{
     width: 85%;
 }
 
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yell{
+    color: rgb(101, 101, 5);
+}
+
+.brown{
+    color: brown;
+}
+
+.purple{
+    color: purple;
+}
+
+#final{
+    text-align: center;
+}
